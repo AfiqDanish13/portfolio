@@ -1,0 +1,13 @@
+Primary Colors:
+
+Base: #FFFFFF (White) - A clean and neutral base for your design.
+Accent: #007AFF (Blue) - A vibrant blue that can be used for headings, buttons, and links.
+Secondary: #666666 (Gray) - A neutral gray for secondary text, borders, and backgrounds.
+Fonts:
+
+Heading: Roboto Bold - A modern and readable font for headings.
+Body: Inter Regular - A clean and comfortable font for body text.
+Font Sizes:
+
+Heading: 24px
+Body: 16px

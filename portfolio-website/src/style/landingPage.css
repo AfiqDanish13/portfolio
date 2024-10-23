@@ -1,0 +1,42 @@
+:root {
+    --base: #FFFFFF;
+    --accent: #007AFF;
+    --secondary: #666666;
+    --heading: 'Roboto';
+    --body: 'Inter Regular';
+}
+
+.myBG {
+    height: 100vh;
+    background: var(--base);
+    background-size: cover;
+  }
+
+.my-brand .nav-link {
+    font-family: var(--heading);
+    color: var(--accent);
+    font-size: 30px;
+}
+
+.intro {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.motto {
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: var(--heading);
+    line-height: 1;
+    text-shadow: 2px 2px black;
+    letter-spacing: 4px;
+}
