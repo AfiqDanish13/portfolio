@@ -3,7 +3,7 @@
     --accent: #007AFF;
     --secondary: #666666;
     --heading: 'Roboto';
-    --body: 'Inter Regular';
+    --body: 'Inter', sans-serif;
 }
 
 .myBG {
@@ -19,15 +19,16 @@
 }
 
 .intro {
-    height: 90%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .image{
-    height: 500px;
-    width: 400px;
+    display: flex;
+    height: auto;
+    width: auto;
     align-items: center;
     justify-content: center;
 }
@@ -39,4 +40,10 @@
     line-height: 1;
     text-shadow: 2px 2px black;
     letter-spacing: 4px;
+}
+
+.description {
+    font-size: 1rem;
+    font-family: var(--body);
+    letter-spacing: 1px;
 }
