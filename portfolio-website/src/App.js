@@ -8,11 +8,17 @@ import "./style/landingPage.css"
 
 function App() {
   return (
-    <div>
-      <div className="myBG">
-        <NavigationBar />
-        <Intro/>
-      </div>
+    <div className='root'>
+      {/* Header start */}
+      <header><NavigationBar /></header>
+      {/* Header end */}
+
+      {/* Hero start */}
+      <Intro/>
+      {/* Hero end */}
+      
+
+
       
 
       {/* <div className="project">

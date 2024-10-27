@@ -7,11 +7,12 @@ const Intro = () => {
             <Container className='text-black text-center d-flex justify-content-center align-items-center'>
                 <Row>
                     <Col>
-                    <div className="image m-7 ">
-                        <img src={icon} alt="icon" />
-                    </div>
+                        <div className="image m-7 ">
+                            <img src={icon} alt="icon" />
+                        </div>
                     </Col>
-                    <Col><div className='motto mt-5'>Hello everyone, I'm <br/>Afiq Danish</div>
+                    <Col>
+                        <div className='motto mt-5'>Hello everyone, I'm <br />Afiq Danish</div>
                         <div className='description mt-2'>  Computer Science Student & <span style={{ fontWeight: 'bold' }}>Tech Enthusiast</span>
                         </div>
                         <div className='quotes mt-4'>per aspera, ad astra</div>
