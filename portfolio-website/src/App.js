@@ -1,37 +1,39 @@
 import './App.css';
 import NavigationBar from './components/NavigationBar'
-import Intro from './components/Intro'
-
-
-import "./style/landingPage.css"
+import Hero from './components/Hero'
+import About from './components/About'
+import Project from './components/Project'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 function App() {
   return (
     <div className='root'>
       {/* Header start */}
-      <header><NavigationBar /></header>
+      <NavigationBar />
       {/* Header end */}
 
       {/* Hero start */}
-      <Intro/>
+      <Hero/>
       {/* Hero end */}
+
+      {/* About start */}
+      <About/>
+      {/* About start */}
+
       
+      {/* Project Start */}
+      <Project />
+      {/* Project End */}
 
+      {/* {/*Contact Start */}
+      <Contact />
+      {/* Contact End */}
 
-      
-
-      {/* <div className="project">
-        <Project />
-      </div>
-
-      <div className="superhero">
-        <About />
-      </div>
-
-      <div className="contact">
-        <Contact />
-      </div> */}
+      {/* Footer Start */}
+      <Footer/>
+      {/* Footer End */}
 
 
 
