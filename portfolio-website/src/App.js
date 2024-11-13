@@ -22,7 +22,6 @@ function App() {
       <About/>
       {/* About start */}
 
-      
       {/* Project Start */}
       <Project />
       {/* Project End */}
@@ -34,9 +33,6 @@ function App() {
       {/* Footer Start */}
       <Footer/>
       {/* Footer End */}
-
-
-
     </div>
 
   )
